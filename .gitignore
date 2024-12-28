@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Build directories
+/dist
+/build
+
+# Logs
+*.log
+npm-debug.log*
+
+# Client specific
+/client/node_modules
+/client/.env
+/client/dist
+
+# Server specific
+/server/node_modules
+/server/.env
+/server/dist
+
+# IDE
+.vscode
+.idea
+
+# Misc
+.DS_Store
